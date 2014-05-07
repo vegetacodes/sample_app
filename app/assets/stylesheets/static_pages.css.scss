@@ -96,3 +96,11 @@ body {
     margin-top: -13px;
     height: 0;
 }
+
+#crumbs li a.last span.tl {
+	border-color: #b2c578 #b2c578 #b2c578 transparent;
+}
+
+#crumbs li a.last span.hd {
+	border-left: 13px solid #b2c578;
+}
