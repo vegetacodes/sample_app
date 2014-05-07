@@ -1,11 +1,11 @@
 class StaticPagesController < ApplicationController
-  def home
+  def training
   end
 
-  def help
+  def courses
   end
 
-  def about
+  def schedule_register
   	
   end
 end
