@@ -1,3 +1,98 @@
 // Place all the styles related to the StaticPages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+#crumbs li a.first {
+	border-radius: 2px;
+}
+
+
+#crumbs li a.last {
+    background-color: #b2c578;
+    color: #fff;
+    max-width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#crumbs li a:link, li a:visited { text-decoration: none }
+#crumbs li a:link, li a:visited { text-decoration: none }
+
+#crumbs li a {
+    color: #b1b1b1;
+    font-size: 12px;
+    line-height: 26px;
+    padding: 0 4px 0 9px;
+    display: inline-block;
+    background-color: #f5f5f5;
+    vertical-align: middle;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}
+
+#crumbs li {
+    margin: 0 7px 0 7px;
+    display: inline-block;
+    zoom: 1;
+    position: relative;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+body {
+    background: #fff;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    padding: 30px 0 0;
+    margin: 0 auto;
+}
+
+#crumbs li a span.hd {
+	border-top: 13px solid transparent;
+	border-bottom: 13px solid transparent;
+	border-left: 13px solid #f5f5f5;
+	right: -1em;
+}
+
+#crumbs li a span {
+	position: absolute;
+	top: 50%;
+	margin-top: -13px;
+	height: 0px;
+}
+
+// tl span styles
+
+#crumbs li a.first span.tl {
+    border-color: transparent;
+}
+
+#crumbs li a span.tl {
+    border-width: 13px 0 13px 13px;
+    border-style: solid;
+    border-color: #f5f5f5 #f5f5f5 #f5f5f5 transparent;
+    left: -1em;
+}
+
+#crumbs li a span {
+    position: absolute;
+    top: 50%;
+    margin-top: -13px;
+    height: 0;
+}
